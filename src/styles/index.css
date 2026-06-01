@@ -2,5 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { background: #080C14; color: #fff; font-family: 'Inter', sans-serif; }
-.glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(16px); border: 1px solid rgba(201,168,76,0.15); }
+body { background: #FAFAF8; color: #1C1917; font-family: 'Inter', sans-serif; }
+.font-serif { font-family: 'Playfair Display', serif; }
+.glass {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(201,168,76,0.2);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+}
